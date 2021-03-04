@@ -1,0 +1,32 @@
+.input-with-label {
+    position: relative;
+    padding-top: 10px;
+}
+.input-with-label > input {
+    position: absolute;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid;
+}
+.input-with-label > input:focus {
+    outline: 0;
+}
+.input-with-label > label {
+    position: absolute;
+    font-size: 0.8rem;
+    color: rgb(67, 167, 105);
+    font-weight: bold;
+    transform: translate(0, -10px);
+    transition: transform 0.3s, font-size 0.3s, color 0.3s, font-weight 0.3s;
+}
+.input-with-label > .label-center {
+    font-size: 1.2rem;
+    color: #999;
+    font-weight: normal;
+    transform: translate(6px, 5px);
+    transition: transform 0.3s, font-size 0.3s, color 0.3s, font-weight 0.3s;
+}
+.input-with-label > .label-center:hover {
+    cursor: text;
+}
