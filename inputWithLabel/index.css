@@ -1,5 +1,7 @@
 .input-with-label {
     position: relative;
+    width: 215px;
+    height: 50px;
     padding-top: 10px;
 }
 .input-with-label > input {

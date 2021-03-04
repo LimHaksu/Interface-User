@@ -25,7 +25,7 @@ export default class InputWithLabel {
                         this.#label.textContent = attributes[key];
                         break;
                     default:
-                        this.#el.setAttribute(key, attributes[key]);
+                        this.#input.setAttribute(key, attributes[key]);
                         break;
                 }
             }
